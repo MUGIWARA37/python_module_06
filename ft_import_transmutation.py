@@ -1,8 +1,8 @@
 import alchemy.elements
-from alchemy.potions import strength_potion
 from alchemy.elements import create_fire
 from alchemy.potions import healing_potion as heal
 from alchemy.elements import create_water, create_earth
+from alchemy.potions import strength_potion
 
 if __name__ == "__main__":
     try:
