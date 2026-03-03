@@ -1,7 +1,8 @@
 import alchemy.elements
-import alchemy.potions
-from alchemy.elements import create_fire, create_water, create_earth
+from alchemy.potions import strength_potion
+from alchemy.elements import create_fire
 from alchemy.potions import healing_potion as heal
+from alchemy.elements import create_water, create_earth
 
 if __name__ == "__main__":
     try:
@@ -20,7 +21,7 @@ if __name__ == "__main__":
         print("\nMethod 4 - Multiple imports:")
         print(f"create_earth(): {create_earth()}")
         print(f"create_fire(): {create_fire()}")
-        print(f"strength_potion(): {alchemy.potions.strength_potion()}")
+        print(f"strength_potion(): {strength_potion()}")
 
         print("\nAll import transmutation methods mastered!")
     except Exception as e:
