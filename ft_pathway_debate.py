@@ -21,5 +21,6 @@ if __name__ == "__main__":
         print("alchemy.transmutation.philosophers_stone(): "
               f"{alchemy.transmutation.philosophers_stone():}")
 
+        print("\nBoth pathways work! Absolute: clear, Relative: concise")
     except Exception as e:
         print(e)
